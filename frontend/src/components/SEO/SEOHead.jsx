@@ -14,8 +14,8 @@ const SEOHead = ({
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
   const defaultDescription = 'Experience luxury redefined at StayLuxe Hotel. Book premium accommodations with 5-star amenities, fine dining, spa services, and exceptional hospitality.';
   const defaultKeywords = 'luxury hotel, hotel booking, premium accommodation, 5-star hotel, luxury stay, hotel rooms, presidential suite, deluxe rooms, spa hotel, fine dining, hotel amenities';
-  const defaultImage = 'https://your-domain.com/og-image.jpg';
-  const defaultUrl = 'https://your-domain.com';
+  const defaultImage = 'https://gouriinn.com/og-image.jpg';
+  const defaultUrl = 'https://gouriinn.com';
 
   return (
     <Helmet>
@@ -53,4 +53,4 @@ const SEOHead = ({
   );
 };
 
-export default SEOHead; 
+export default SEOHead;
