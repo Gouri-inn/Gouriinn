@@ -142,13 +142,13 @@ function Home() {
   // Scroll-triggered animation hook
   const useScrollAnimation = () => {
     return {
-      initial: { opacity: 0, y: 60 },
+      initial: { opacity: 0, y: 50 },
       whileInView: { 
         opacity: 1, 
         y: 0,
         transition: {
-          duration: 0.8,
-          ease: [0.6, -0.05, 0.01, 0.99]
+          duration: 0.6, // Faster duration
+          ease: [0.25, 0.46, 0.45, 0.94] // Smoother ease-out
         }
       },
       viewport: { once: true, margin: "-100px" }
@@ -160,15 +160,15 @@ function Home() {
     if (fadeElements.length > 0) {
       gsap.fromTo(
         fadeElements,
-        { autoAlpha: 0, y: 50 },
+        { autoAlpha: 0, y: 40 }, // Slightly less initial y for faster feel
         {
           autoAlpha: 1,
           y: 0,
-          duration: 1,
-          ease: "power2.out",
+          duration: 0.8, // Faster duration
+          ease: "power3.out", // Smoother ease
           scrollTrigger: {
             trigger: fadeElements,
-            start: "top 80%",
+            start: "top 85%", // Earlier start
             toggleActions: "play none none reverse",
           },
         }
