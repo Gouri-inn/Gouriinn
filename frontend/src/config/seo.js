@@ -4,7 +4,7 @@ export const seoConfig = {
   // Site-wide SEO settings
   site: {
     name: 'Gouri Inn',
-    url: 'https://gouriinn.com',
+    url: 'https://gouriinn.com', // Ensure this is the primary domain
     description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.',
     keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
     author: 'Gouri Inn',
