@@ -49,7 +49,7 @@ const roomsStructuredData = {
   name: "Luxury Hotel Rooms & Suites",
   description:
     "Explore our premium accommodations including Deluxe Rooms, Executive Suites, and Family Suites at StayLuxe Hotel",
-  url: "https://your-domain.com/Rooms",
+  url: "https://gouriinn.com/rooms",
   itemListElement: [
     {
       "@type": "ListItem",
@@ -232,6 +232,7 @@ const Rooms = () => {
         title="Guest Rooms | StayLuxe Hotel"
         description="Experience comfort and elegance with our luxurious room options, designed for your ultimate relaxation and memorable stay."
         keywords="luxury hotel rooms, executive suites, family suites, hotel accommodations, hotel rooms, hotel stay"
+        url="https://gouriinn.com/rooms"
         structuredData={roomsStructuredData}
       />
       {/* Animated Heading */}

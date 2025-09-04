@@ -10,7 +10,7 @@ const NotFound = () => {
     "@type": "WebPage",
     "name": "Page Not Found - StayLuxe Hotel",
     "description": "The page you're looking for doesn't exist. Explore our luxury hotel accommodations and services.",
-    "url": "https://your-domain.com/404"
+    "url": "https://gouriinn.com/404"
   };
 
   return (
@@ -19,6 +19,7 @@ const NotFound = () => {
         title="Page Not Found | StayLuxe Hotel"
         description="The page you're looking for doesn't exist. Explore our luxury hotel accommodations and services."
         keywords="404, page not found, hotel booking, luxury accommodation"
+        url="https://gouriinn.com/404"
         structuredData={structuredData}
       />
       
