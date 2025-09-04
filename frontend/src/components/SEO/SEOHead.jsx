@@ -1,21 +1,22 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { seoConfig } from '../../config/seo'; // Import seoConfig
 
 const SEOHead = ({ 
   title, 
   description, 
   keywords, 
   image, 
-  url, 
   type = 'website',
   structuredData = null 
 }) => {
-  const siteName = 'Gouri Inn';
+  const siteName = seoConfig.site.name;
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
-  const defaultDescription = 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.';
-  const defaultKeywords = 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions';
-  const defaultImage = 'https://gouriinn.com/RoomImages/suite.jpg';
-  const defaultUrl = 'https://gouriinn.com';
+  const defaultDescription = seoConfig.site.description;
+  const defaultKeywords = seoConfig.site.keywords;
+  const defaultImage = `${seoConfig.site.url}/RoomImages/suite.jpg`; // Use site URL for absolute image path
+  const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
+  const canonicalUrl = `${seoConfig.site.url}${currentPath}`; // Construct canonical URL using current path
 
   return (
     <Helmet>
@@ -26,11 +27,11 @@ const SEOHead = ({
       <meta name="keywords" content={keywords || defaultKeywords} />
       
       {/* Canonical URL */}
-      <link rel="canonical" href={url || defaultUrl} />
+      <link rel="canonical" href={canonicalUrl} />
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
-      <meta property="og:url" content={url || defaultUrl} />
+      <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:image" content={image || defaultImage} />
@@ -38,7 +39,7 @@ const SEOHead = ({
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={url || defaultUrl} />
+      <meta property="twitter:url" content={canonicalUrl} />
       <meta property="twitter:title" content={fullTitle} />
       <meta property="twitter:description" content={description || defaultDescription} />
       <meta property="twitter:image" content={image || defaultImage} />
