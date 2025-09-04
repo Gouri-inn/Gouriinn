@@ -10,7 +10,8 @@ export const sendApprovalEmail = async (booking) => {
     },
   });
 
-  const frontendBaseUrl = process.env.FRONTEND_DOMAIN || 'http://localhost:5173';
+  const frontendBaseUrl =
+    process.env.FRONTEND_BASE_URL || process.env.VITE_API_BASE_URL || 'http://localhost:5173';
   const bookingLink = `${frontendBaseUrl}/room-booking?bookingId=${booking._id}`;
 
   const mailOptions = {
