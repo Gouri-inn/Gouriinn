@@ -3,51 +3,51 @@
 export const seoConfig = {
   // Site-wide SEO settings
   site: {
-    name: 'StayLuxe Hotel',
-    url: 'https://your-actual-domain.com', // ⚠️ REPLACE WITH YOUR DOMAIN
-    description: 'Experience luxury redefined at StayLuxe Hotel. Book premium accommodations with 5-star amenities, fine dining, spa services, and exceptional hospitality.',
-    keywords: 'luxury hotel, hotel booking, premium accommodation, 5-star hotel, luxury stay, hotel rooms, presidential suite, deluxe rooms, spa hotel, fine dining, hotel amenities, luxury accommodation',
-    author: 'StayLuxe Hotel',
+    name: 'Gouri Inn',
+    url: 'https://gouriinn.com',
+    description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.',
+    keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
+    author: 'Gouri Inn',
     language: 'en',
     region: 'IN',
     currency: 'INR',
-    phone: '+91-9876543210', // ⚠️ REPLACE WITH YOUR PHONE
-    email: 'info@stayluxe.com', // ⚠️ REPLACE WITH YOUR EMAIL
+    phone: '+91-9876543210', // Placeholder, replace with actual phone number
+    email: 'info@gouriinn.com', // Placeholder, replace with actual email
     address: {
-      street: '123 Luxury Street', // ⚠️ REPLACE WITH YOUR ADDRESS
-      city: 'Mumbai', // ⚠️ REPLACE WITH YOUR CITY
-      state: 'Maharashtra', // ⚠️ REPLACE WITH YOUR STATE
-      postalCode: '400001', // ⚠️ REPLACE WITH YOUR POSTAL CODE
+      street: 'Your Street Address', // Placeholder, replace with actual address
+      city: 'Your City', // Placeholder, replace with actual city
+      state: 'Your State', // Placeholder, replace with actual state
+      postalCode: 'Your Postal Code', // Placeholder, replace with actual postal code
       country: 'IN'
     },
     coordinates: {
-      latitude: '19.0760', // ⚠️ REPLACE WITH YOUR LATITUDE
-      longitude: '72.8777' // ⚠️ REPLACE WITH YOUR LONGITUDE
+      latitude: 'YOUR_LATITUDE', // Placeholder, replace with actual latitude
+      longitude: 'YOUR_LONGITUDE' // Placeholder, replace with actual longitude
     },
     social: {
-      facebook: 'https://facebook.com/stayluxe', // ⚠️ REPLACE WITH YOUR SOCIAL LINKS
-      instagram: 'https://instagram.com/stayluxe',
-      linkedin: 'https://linkedin.com/company/stayluxe',
-      twitter: 'https://twitter.com/stayluxe'
+      facebook: 'https://facebook.com/gouriinn', // Placeholder, replace with actual social links
+      instagram: 'https://instagram.com/gouriinn',
+      linkedin: 'https://linkedin.com/company/gouriinn',
+      twitter: 'https://twitter.com/gouriinn'
     }
   },
 
   // Page-specific SEO configurations
   pages: {
     home: {
-      title: 'Luxury Hotel Booking | Premium Accommodations & 5-Star Experience',
-      description: 'Experience luxury redefined at StayLuxe Hotel. Book premium accommodations with 5-star amenities, fine dining, spa services, and exceptional hospitality. Best rates guaranteed.',
-      keywords: 'luxury hotel, hotel booking, premium accommodation, 5-star hotel, luxury stay, hotel rooms, presidential suite, deluxe rooms, spa hotel, fine dining, hotel amenities, luxury accommodation',
-      image: '/og-image.jpg',
+      title: 'Gouri Inn | Premium Hotel & Lawn Bookings',
+      description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us. Best rates guaranteed.',
+      keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
+      image: '/RoomImages/suite.jpg',
       url: '/',
       priority: 1.0,
       changefreq: 'weekly'
     },
 
     rooms: {
-      title: 'Luxury Hotel Rooms & Suites | Presidential, Deluxe, Executive',
-      description: 'Explore our premium accommodations including Presidential Suites, Deluxe Rooms, and Executive Suites. Each room is designed for ultimate comfort and luxury.',
-      keywords: 'luxury hotel rooms, executive suites, family suites, hotel accommodations, hotel rooms, hotel stay, presidential suite, deluxe room',
+      title: 'Gouri Inn Rooms & Suites | Deluxe, Executive, Family',
+      description: 'Explore our premium accommodations including Deluxe Rooms, Executive Suites, and Family Suites. Each room is designed for ultimate comfort and luxury at Gouri Inn.',
+      keywords: 'Gouri Inn rooms, hotel rooms, executive suites, family suites, hotel accommodations, hotel stay, deluxe room',
       image: '/RoomImages/deluxe.jpg',
       url: '/Rooms',
       priority: 0.9,
@@ -55,19 +55,19 @@ export const seoConfig = {
     },
 
     booking: {
-      title: 'Book Your Stay | Luxury Hotel Reservations',
-      description: 'Secure your luxury stay at StayLuxe Hotel. Easy online booking with instant confirmation, flexible cancellation, and best rate guarantee.',
-      keywords: 'hotel booking, luxury hotel reservation, book hotel room, online hotel booking, hotel reservation system',
-      image: '/og-image.jpg',
+      title: 'Book Your Stay at Gouri Inn | Hotel & Lawn Reservations',
+      description: 'Secure your premium stay or event at Gouri Inn. Easy online booking with instant confirmation, flexible cancellation, and best rate guarantee.',
+      keywords: 'Gouri Inn booking, hotel reservation, lawn booking, online booking, event booking system',
+      image: '/RoomImages/suite.jpg',
       url: '/room-booking',
       priority: 0.9,
       changefreq: 'daily'
     },
 
     gallery: {
-      title: 'Hotel Gallery | Luxury Accommodations & Amenities Photos',
-      description: 'Browse our photo gallery showcasing luxury rooms, amenities, dining experiences, and beautiful hotel spaces at StayLuxe Hotel.',
-      keywords: 'hotel gallery, luxury hotel photos, hotel amenities photos, room pictures, hotel interior photos',
+      title: 'Gouri Inn Gallery | Hotel & Lawn Photos',
+      description: 'Browse our photo gallery showcasing luxury rooms, beautiful lawns, amenities, and dining experiences at Gouri Inn.',
+      keywords: 'Gouri Inn gallery, hotel photos, lawn photos, event venue pictures, room pictures, hotel interior photos',
       image: '/gallery-preview.jpg',
       url: '/gallery',
       priority: 0.8,
@@ -75,10 +75,10 @@ export const seoConfig = {
     },
 
     contact: {
-      title: 'Contact StayLuxe Hotel | Book Your Luxury Stay',
-      description: 'Get in touch with StayLuxe Hotel. Contact us for reservations, inquiries, or special requests. We\'re here to make your stay exceptional.',
-      keywords: 'contact hotel, hotel contact information, hotel phone number, hotel email, hotel address',
-      image: '/og-image.jpg',
+      title: 'Contact Gouri Inn | Book Your Stay or Event',
+      description: 'Get in touch with Gouri Inn. Contact us for reservations, event inquiries, or special requests. We\'re here to make your experience exceptional.',
+      keywords: 'contact Gouri Inn, hotel contact information, event venue contact, hotel phone number, hotel email, hotel address',
+      image: '/RoomImages/suite.jpg',
       url: '/contact',
       priority: 0.7,
       changefreq: 'monthly'
@@ -86,9 +86,9 @@ export const seoConfig = {
 
     services: {
       eventWedding: {
-        title: 'Events & Weddings | Luxury Hotel Venue',
-        description: 'Host your dream wedding or special event at StayLuxe Hotel. Beautiful venues, expert planning, and exceptional service for unforgettable celebrations.',
-        keywords: 'wedding venue, event space, hotel wedding, luxury wedding venue, corporate events, party venue',
+        title: 'Events & Weddings at Gouri Inn | Luxury Venue',
+        description: 'Host your dream wedding or special event at Gouri Inn. Beautiful venues, expert planning, and exceptional service for unforgettable celebrations.',
+        keywords: 'Gouri Inn wedding venue, event space, hotel wedding, luxury wedding venue, corporate events, party venue',
         image: '/event-venue.jpg',
         url: '/Seva/EventWedding',
         priority: 0.8,
@@ -96,9 +96,9 @@ export const seoConfig = {
       },
 
       foodBeverages: {
-        title: 'Fine Dining & Beverages | Gourmet Restaurant',
-        description: 'Savor exquisite cuisine at our award-winning restaurants. From fine dining to casual meals, experience culinary excellence at StayLuxe Hotel.',
-        keywords: 'fine dining, gourmet restaurant, hotel restaurant, luxury dining, food and beverages, culinary experience',
+        title: 'Fine Dining & Beverages at Gouri Inn | Gourmet Restaurant',
+        description: 'Savor exquisite cuisine at our award-winning restaurants. From fine dining to casual meals, experience culinary excellence at Gouri Inn.',
+        keywords: 'Gouri Inn fine dining, gourmet restaurant, hotel restaurant, luxury dining, food and beverages, culinary experience',
         image: '/restaurant.jpg',
         url: '/Seva/FoodBeverages',
         priority: 0.8,
@@ -106,9 +106,9 @@ export const seoConfig = {
       },
 
       specialOffers: {
-        title: 'Special Offers & Packages | Luxury Hotel Deals',
-        description: 'Discover exclusive offers and packages at StayLuxe Hotel. Special rates, seasonal deals, and luxury packages for your perfect stay.',
-        keywords: 'hotel deals, special offers, luxury packages, hotel discounts, seasonal rates, promotional offers',
+        title: 'Special Offers & Packages at Gouri Inn | Hotel Deals',
+        description: 'Discover exclusive offers and packages at Gouri Inn. Special rates, seasonal deals, and luxury packages for your perfect stay or event.',
+        keywords: 'Gouri Inn hotel deals, special offers, luxury packages, hotel discounts, seasonal rates, promotional offers',
         image: '/special-offers.jpg',
         url: '/Seva/SpecialOffers',
         priority: 0.8,
@@ -117,10 +117,10 @@ export const seoConfig = {
     },
 
     notFound: {
-      title: 'Page Not Found | StayLuxe Hotel',
-      description: 'The page you\'re looking for doesn\'t exist. Explore our luxury hotel accommodations and services.',
-      keywords: '404, page not found, hotel booking, luxury accommodation',
-      image: '/og-image.jpg',
+      title: 'Page Not Found | Gouri Inn',
+      description: 'The page you\'re looking for doesn\'t exist. Explore our premium hotel accommodations and services at Gouri Inn.',
+      keywords: '404, page not found, Gouri Inn booking, luxury accommodation',
+      image: '/RoomImages/suite.jpg',
       url: '/404',
       priority: 0.1,
       changefreq: 'monthly'
@@ -132,17 +132,17 @@ export const seoConfig = {
     organization: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "StayLuxe Hotel",
-      "url": "https://your-domain.com",
-      "logo": "https://your-domain.com/logo.png",
+      "name": "Gouri Inn",
+      "url": "https://gouriinn.com",
+      "logo": "https://gouriinn.com/logo.png", // Placeholder, replace with actual logo path
       "sameAs": [
-        "https://facebook.com/stayluxe",
-        "https://instagram.com/stayluxe",
-        "https://linkedin.com/company/stayluxe"
+        "https://facebook.com/gouriinn", // Placeholder, replace with actual social links
+        "https://instagram.com/gouriinn",
+        "https://linkedin.com/company/gouriinn"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXXXXXXXX",
+        "telephone": "+91-XXXXXXXXXX", // Placeholder, replace with actual phone number
         "contactType": "customer service",
         "availableLanguage": "English"
       }
@@ -151,13 +151,13 @@ export const seoConfig = {
     hotel: {
       "@context": "https://schema.org",
       "@type": "Hotel",
-      "name": "StayLuxe Hotel",
-      "description": "Experience luxury redefined at StayLuxe Hotel with premium accommodations, 5-star amenities, fine dining, and exceptional hospitality.",
-      "url": "https://your-domain.com",
-      "logo": "https://your-domain.com/logo.png",
-      "image": "https://your-domain.com/hotel-image.jpg",
-      "telephone": "+91-XXXXXXXXXX",
-      "email": "info@stayluxe.com",
+      "name": "Gouri Inn",
+      "description": "Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.",
+      "url": "https://gouriinn.com",
+      "logo": "https://gouriinn.com/logo.png", // Placeholder, replace with actual logo path
+      "image": "https://gouriinn.com/RoomImages/suite.jpg", // Placeholder, replace with actual hotel image
+      "telephone": "+91-XXXXXXXXXX", // Placeholder, replace with actual phone number
+      "email": "info@gouriinn.com", // Placeholder, replace with actual email
       "priceRange": "₹₹₹",
       "starRating": {
         "@type": "Rating",
@@ -166,16 +166,16 @@ export const seoConfig = {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Your Street Address",
-        "addressLocality": "Your City",
-        "addressRegion": "Your State",
-        "postalCode": "Your Postal Code",
+        "streetAddress": "Your Street Address", // Placeholder, replace with actual street address
+        "addressLocality": "Your City", // Placeholder, replace with actual city
+        "addressRegion": "Your State", // Placeholder, replace with actual state
+        "postalCode": "Your Postal Code", // Placeholder, replace with actual postal code
         "addressCountry": "IN"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "YOUR_LATITUDE",
-        "longitude": "YOUR_LONGITUDE"
+        "latitude": "YOUR_LATITUDE", // Placeholder, replace with actual latitude
+        "longitude": "YOUR_LONGITUDE" // Placeholder, replace with actual longitude
       },
       "amenityFeature": [
         {
@@ -214,7 +214,7 @@ export const seoConfig = {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://your-domain.com"
+          "item": "https://gouriinn.com"
         }
       ]
     }
@@ -223,7 +223,7 @@ export const seoConfig = {
   // Open Graph configurations
   openGraph: {
     type: 'website',
-    siteName: 'StayLuxe Hotel',
+    siteName: 'Gouri Inn',
     locale: 'en_US',
     imageWidth: 1200,
     imageHeight: 630
@@ -232,8 +232,8 @@ export const seoConfig = {
   // Twitter Card configurations
   twitter: {
     card: 'summary_large_image',
-    site: '@stayluxe',
-    creator: '@stayluxe'
+    site: '@gouriinn', // Placeholder, replace with actual Twitter handle
+    creator: '@gouriinn' // Placeholder, replace with actual Twitter handle
   },
 
   // Analytics configurations
@@ -287,4 +287,4 @@ export const generateStructuredData = (type, customData = {}) => {
     ...baseData,
     ...customData
   };
-}; 
+};
