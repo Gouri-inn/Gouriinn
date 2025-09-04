@@ -10,11 +10,11 @@ const SEOHead = ({
   type = 'website',
   structuredData = null 
 }) => {
-  const siteName = 'StayLuxe Hotel';
+  const siteName = 'Gouri Inn';
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
-  const defaultDescription = 'Experience luxury redefined at StayLuxe Hotel. Book premium accommodations with 5-star amenities, fine dining, spa services, and exceptional hospitality.';
-  const defaultKeywords = 'luxury hotel, hotel booking, premium accommodation, 5-star hotel, luxury stay, hotel rooms, presidential suite, deluxe rooms, spa hotel, fine dining, hotel amenities';
-  const defaultImage = 'https://gouriinn.com/og-image.jpg';
+  const defaultDescription = 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.';
+  const defaultKeywords = 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions';
+  const defaultImage = 'https://gouriinn.com/RoomImages/suite.jpg';
   const defaultUrl = 'https://gouriinn.com';
 
   return (
