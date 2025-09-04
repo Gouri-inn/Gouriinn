@@ -42,6 +42,8 @@ export const allowedOrigins = [
   'https://booking-system-cn1y.onrender.com',
   'https://booking-system-frontend.vercel.app', // Specific Vercel deployment
   'https://booking-system-frontend-git-main-patil-png.vercel.app', // Example for a specific branch deployment
+  'https://gouriinn-gg897143z-gouri-inns-projects.vercel.app', // New Vercel deployment
+  'https://gouriinn.com', // Main domain
   'http://localhost:5173' // For local development
 ];
 
