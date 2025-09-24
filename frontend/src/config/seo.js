@@ -6,26 +6,26 @@ export const seoConfig = {
     name: 'Gouri Inn',
     url: 'https://gouriinn.com', // Ensure this is the primary domain
     description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.',
-    keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
+    keywords: 'Gouri Inn, gouri-inn, Guri inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
     author: 'Gouri Inn',
     language: 'en',
     region: 'IN',
     currency: 'INR',
-    phone: '+91-9876543210', // Placeholder, replace with actual phone number
-    email: 'info@gouriinn.com', // Placeholder, replace with actual email
+    phone: '+91-8799866811',
+    email: 'thakurthansen@gmail.com',
     address: {
-      street: 'Your Street Address', // Placeholder, replace with actual address
-      city: 'Your City', // Placeholder, replace with actual city
-      state: 'Your State', // Placeholder, replace with actual state
-      postalCode: 'Your Postal Code', // Placeholder, replace with actual postal code
+      street: 'Nagpur Road New Bypass in Rahatgaon, Amravati, Maharashtra, India',
+      city: 'Amravati',
+      state: 'Maharashtra',
+      postalCode: '444602',
       country: 'IN'
     },
     coordinates: {
-      latitude: 'YOUR_LATITUDE', // Placeholder, replace with actual latitude
-      longitude: 'YOUR_LONGITUDE' // Placeholder, replace with actual longitude
+      latitude: '20.9627° N',
+      longitude: '77.7827° E'
     },
     social: {
-      facebook: 'https://facebook.com/gouriinn', // Placeholder, replace with actual social links
+      facebook: 'https://facebook.com/gouriinn',
       instagram: 'https://instagram.com/gouriinn',
       linkedin: 'https://linkedin.com/company/gouriinn',
       twitter: 'https://twitter.com/gouriinn'
@@ -35,9 +35,9 @@ export const seoConfig = {
   // Page-specific SEO configurations
   pages: {
     home: {
-      title: 'Gouri Inn | Premium Hotel & Lawn Bookings',
-      description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us. Best rates guaranteed.',
-      keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
+      title: 'Gouri Inn Amravati | Premium Hotel & Lawn Bookings in Amravati',
+      description: 'Gouri Inn Amravati, also known as Guri Inn or Gouri-Inn, offers premium hotel and lawn bookings with exceptional hospitality in Amravati, Maharashtra. Book your stay, events, and special occasions with us. Best rates guaranteed.',
+      keywords: 'Gouri Inn Amravati, gouri-inn Amravati, Guri inn Amravati, hotel booking Amravati, lawn booking Amravati, event venue Amravati, premium hotel Amravati, hospitality Amravati, luxury stay Amravati, rooms Amravati, events Amravati, special occasions Amravati',
       image: '/RoomImages/suite.jpg',
       url: '/',
       priority: 1.0,
@@ -142,7 +142,7 @@ export const seoConfig = {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXXXXXXXX", // Placeholder, replace with actual phone number
+        "telephone": "+91-8799866811",
         "contactType": "customer service",
         "availableLanguage": "English"
       }
@@ -154,10 +154,10 @@ export const seoConfig = {
       "name": "Gouri Inn",
       "description": "Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.",
       "url": "https://gouriinn.com",
-      "logo": "https://gouriinn.com/logo.png", // Placeholder, replace with actual logo path
-      "image": "https://gouriinn.com/RoomImages/suite.jpg", // Placeholder, replace with actual hotel image
-      "telephone": "+91-XXXXXXXXXX", // Placeholder, replace with actual phone number
-      "email": "info@gouriinn.com", // Placeholder, replace with actual email
+      "logo": "https://gouriinn.com/logo.png",
+      "image": "https://gouriinn.com/RoomImages/suite.jpg",
+      "telephone": "+91-8799866811",
+      "email": "thakurthansen@gmail.com",
       "priceRange": "₹₹₹",
       "starRating": {
         "@type": "Rating",
@@ -166,16 +166,16 @@ export const seoConfig = {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Your Street Address", // Placeholder, replace with actual street address
-        "addressLocality": "Your City", // Placeholder, replace with actual city
-        "addressRegion": "Your State", // Placeholder, replace with actual state
-        "postalCode": "Your Postal Code", // Placeholder, replace with actual postal code
+        "streetAddress": "Nagpur Road New Bypass in Rahatgaon, Amravati, Maharashtra, India",
+        "addressLocality": "Amravati",
+        "addressRegion": "Maharashtra",
+        "postalCode": "444602",
         "addressCountry": "IN"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "YOUR_LATITUDE", // Placeholder, replace with actual latitude
-        "longitude": "YOUR_LONGITUDE" // Placeholder, replace with actual longitude
+        "latitude": "20.9627° N",
+        "longitude": "77.7827° E"
       },
       "amenityFeature": [
         {
@@ -232,17 +232,17 @@ export const seoConfig = {
   // Twitter Card configurations
   twitter: {
     card: 'summary_large_image',
-    site: '@gouriinn', // Placeholder, replace with actual Twitter handle
-    creator: '@gouriinn' // Placeholder, replace with actual Twitter handle
+    site: '@gouriinn',
+    creator: '@gouriinn'
   },
 
   // Analytics configurations
   analytics: {
     googleAnalytics: {
-      measurementId: 'GA_MEASUREMENT_ID' // Replace with your GA4 ID
+      measurementId: 'G-XXXXXXXXXX'
     },
     googleTagManager: {
-      containerId: 'GTM_CONTAINER_ID' // Replace with your GTM ID
+      containerId: 'GTM-XXXXXXX'
     }
   },
 

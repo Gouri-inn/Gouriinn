@@ -244,7 +244,7 @@ function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Experience
+                Gouri Inn Amravati
               </motion.span>
               <br />
               <motion.span
@@ -265,7 +265,7 @@ function Home() {
             className="font-sans text-base xs:text-lg sm:text-xl md:text-2xl max-w-2xl mx-auto mt-2 mb-8 font-light tracking-wide text-[#ede6dd] leading-relaxed drop-shadow" 
             style={{textShadow: '0 2px 12px rgba(0,0,0,0.8)'}}
           >
-            Indulge in unparalleled comfort and sophistication at our award-winning hotel, where every moment becomes a cherished memory.
+            Welcome to Gouri Inn Amravati, also known as Guri Inn or Gouri-Inn. Indulge in unparalleled comfort and sophistication at our award-winning hotel, where every moment becomes a cherished memory.
           </motion.p>
           
           <motion.div 
@@ -380,7 +380,7 @@ function Home() {
           >
             <span className="inline-block bg-gradient-to-r from-[#d4af37]/20 to-[#ffd700]/20 text-[#d4af37] text-sm font-semibold px-4 py-1 rounded-full mb-4 border border-[#d4af37]/30">Customer Journey</span>
             <h2 className="font-extrabold text-white text-3xl sm:text-4xl md:text-5xl leading-tight mb-4">
-              From Booking to <span className="bg-gradient-to-r from-[#d4af37] to-[#ffd700] bg-clip-text text-transparent">Bliss</span>
+              Your Journey to <span className="bg-gradient-to-r from-[#d4af37] to-[#ffd700] bg-clip-text text-transparent">Bliss</span> at Gouri Inn Amravati
             </h2>
             <p className="text-[#c4b59a] max-w-2xl mx-auto text-lg">
               Watch how our guests transform from travelers to cherished memories
@@ -481,7 +481,7 @@ function Home() {
           >
             <span className="inline-block bg-gradient-to-r from-[#f4e4bc]/80 to-[#faf8f5] text-[#8b6914] text-sm font-semibold px-4 py-1 rounded-full mb-4 border border-[#d4af37]/30 shadow-lg">Premium Services</span>
             <h2 className="font-extrabold text-[#222] text-3xl sm:text-4xl md:text-5xl leading-tight text-center mb-4">
-              Why Choose <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">StayLuxe</span>
+              Why Choose <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Gouri Inn Amravati</span>
             </h2>
             <p className="text-[#5a4f3a] mb-16 max-w-3xl mx-auto text-lg leading-relaxed">
               Discover the exceptional features and services that make us the premier choice for discerning travelers seeking luxury and comfort.
@@ -561,7 +561,7 @@ function Home() {
           >
             <span className="inline-block bg-gradient-to-r from-[#f4e4bc]/80 to-[#faf8f5] text-[#8b6914] text-sm font-semibold px-4 py-1 rounded-full mb-4 border border-[#d4af37]/30 shadow-lg">Premium Amenities</span>
             <h2 className="font-extrabold text-[#222] text-3xl sm:text-4xl md:text-5xl leading-tight mb-4">
-              Unparalleled <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Luxury</span>
+              Unparalleled <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Luxury</span> at Gouri Inn Amravati
             </h2>
             <p className="text-[#5a4f3a] max-w-3xl mx-auto text-lg leading-relaxed">
               Immerse yourself in a world of sophistication with our carefully curated amenities designed to exceed your every expectation.
@@ -661,7 +661,7 @@ function Home() {
             className="text-center mb-12"
           >
             <h2 className="font-extrabold text-[#222] text-3xl sm:text-4xl md:text-5xl leading-tight mb-4">
-              And Much More...
+              More Amenities at Gouri Inn Amravati
             </h2>
             <p className="text-[#5a4f3a] max-w-2xl mx-auto text-lg">
               Discover additional services and facilities that make your stay extraordinary
@@ -735,8 +735,8 @@ function Home() {
           >
             <span className="inline-block bg-gradient-to-r from-[#f4e4bc]/80 to-[#faf8f5] text-[#8b6914] text-sm font-semibold px-4 py-1 rounded-full mb-4 border border-[#d4af37]/30 shadow-lg">Guest Reviews</span>
             <h2 className="font-extrabold text-[#222] text-3xl sm:text-4xl md:text-5xl leading-tight">
-              What Our Guests<br />
-              <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Say</span>
+              What Our Guests Say About<br />
+              <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Gouri Inn Amravati</span>
             </h2>
           </motion.div>
         </div>
@@ -851,10 +851,10 @@ function Home() {
             className="relative z-10"
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-[#2d2419]">
-              Ready to Create Your Own <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Story?</span>
+              Ready to Create Your Own <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Story</span> at Gouri Inn Amravati?
             </h2>
             <p className="mb-8 text-[#5a4f3a] text-lg leading-relaxed max-w-2xl mx-auto">
-              Join thousands of satisfied guests and experience the luxury that has earned us countless five-star reviews and recommendations.
+              Join thousands of satisfied guests at Gouri Inn, also known as Guri Inn or Gouri-Inn, and experience the luxury that has earned us countless five-star reviews and recommendations.
             </p>
           </motion.div>
           
@@ -883,7 +883,7 @@ function Home() {
 
       {/* About Us Section */}
       <section id="about" className="py-20 px-6 max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-16 fade-in">About Us</h2>
+        <h2 className="text-4xl font-bold mb-16 fade-in">About Gouri Inn Amravati</h2>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
