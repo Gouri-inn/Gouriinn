@@ -265,7 +265,7 @@ function Home() {
             className="font-sans text-base xs:text-lg sm:text-xl md:text-2xl max-w-2xl mx-auto mt-2 mb-8 font-light tracking-wide text-[#ede6dd] leading-relaxed drop-shadow" 
             style={{textShadow: '0 2px 12px rgba(0,0,0,0.8)'}}
           >
-            Welcome to Gouri Inn Amravati, also known as Guri Inn or Gouri-Inn. Indulge in unparalleled comfort and sophistication at our award-winning hotel, where every moment becomes a cherished memory.
+            Indulge in unparalleled comfort and sophistication at our award-winning hotel, where every moment becomes a cherished memory.
           </motion.p>
           
           <motion.div 
@@ -854,7 +854,7 @@ function Home() {
               Ready to Create Your Own <span className="bg-gradient-to-r from-[#8b6914] to-[#d4af37] bg-clip-text text-transparent">Story</span> at Gouri Inn Amravati?
             </h2>
             <p className="mb-8 text-[#5a4f3a] text-lg leading-relaxed max-w-2xl mx-auto">
-              Join thousands of satisfied guests at Gouri Inn, also known as Guri Inn or Gouri-Inn, and experience the luxury that has earned us countless five-star reviews and recommendations.
+              Join thousands of satisfied guests and experience the luxury that has earned us countless five-star reviews and recommendations.
             </p>
           </motion.div>
           

@@ -6,7 +6,7 @@ export const seoConfig = {
     name: 'Gouri Inn',
     url: 'https://gouriinn.com', // Ensure this is the primary domain
     description: 'Gouri Inn offers premium hotel and lawn bookings with exceptional hospitality. Book your stay, events, and special occasions with us.',
-    keywords: 'Gouri Inn, gouri-inn, Guri inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
+    keywords: 'Gouri Inn, hotel booking, lawn booking, event venue, premium hotel, hospitality, luxury stay, rooms, events, special occasions',
     author: 'Gouri Inn',
     language: 'en',
     region: 'IN',
@@ -36,8 +36,8 @@ export const seoConfig = {
   pages: {
     home: {
       title: 'Gouri Inn Amravati | Premium Hotel & Lawn Bookings in Amravati',
-      description: 'Gouri Inn Amravati, also known as Guri Inn or Gouri-Inn, offers premium hotel and lawn bookings with exceptional hospitality in Amravati, Maharashtra. Book your stay, events, and special occasions with us. Best rates guaranteed.',
-      keywords: 'Gouri Inn Amravati, gouri-inn Amravati, Guri inn Amravati, hotel booking Amravati, lawn booking Amravati, event venue Amravati, premium hotel Amravati, hospitality Amravati, luxury stay Amravati, rooms Amravati, events Amravati, special occasions Amravati',
+      description: 'Gouri Inn Amravati offers premium hotel and lawn bookings with exceptional hospitality in Amravati, Maharashtra. Book your stay, events, and special occasions with us. Best rates guaranteed.',
+      keywords: 'Gouri Inn Amravati, hotel booking Amravati, lawn booking Amravati, event venue Amravati, premium hotel Amravati, hospitality Amravati, luxury stay Amravati, rooms Amravati, events Amravati, special occasions Amravati',
       image: '/RoomImages/suite.jpg',
       url: '/',
       priority: 1.0,
