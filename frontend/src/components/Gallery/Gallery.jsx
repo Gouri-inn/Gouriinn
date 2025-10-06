@@ -70,7 +70,7 @@ const Gallery = () => {
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <motion.div
+      <div
         className={`${className} custom-arrow left-2 sm:left-4 z-20 !flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full p-2 cursor-pointer shadow-xl hover:shadow-2xl backdrop-blur-sm`}
         style={{ 
           ...style, 
@@ -80,28 +80,18 @@ const Gallery = () => {
           background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)'
         }}
         onClick={onClick}
-        whileHover={{ 
-          scale: 1.15, 
-          boxShadow: '0 12px 24px rgba(59, 130, 246, 0.5)',
-          background: 'linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)'
-        }}
-        whileTap={{ scale: 0.9 }}
-        initial={{ opacity: 0, x: -20 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -20 }}
-        transition={{ duration: 0.3 }}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24">
+          <path d="M15 19l-7-7 7-7" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} />
         </svg>
-      </motion.div>
+      </div>
     );
   }
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <motion.div
+      <div
         className={`${className} custom-arrow right-2 sm:right-4 z-20 !flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full p-2 cursor-pointer shadow-xl hover:shadow-2xl backdrop-blur-sm`}
         style={{ 
           ...style, 
@@ -111,21 +101,11 @@ const Gallery = () => {
           background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)'
         }}
         onClick={onClick}
-        whileHover={{ 
-          scale: 1.15, 
-          boxShadow: '0 12px 24px rgba(59, 130, 246, 0.5)',
-          background: 'linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)'
-        }}
-        whileTap={{ scale: 0.9 }}
-        initial={{ opacity: 0, x: 20 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 20 }}
-        transition={{ duration: 0.3 }}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24">
+          <path d="M9 5l7 7-7 7" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} />
         </svg>
-      </motion.div>
+      </div>
     );
   }
 
