@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { FaShieldAlt, FaEnvelope, FaKey } from 'react-icons/fa';
+import { FaEnvelope, FaKey } from 'react-icons/fa';
 
 const AdminLogin = () => {
   const [form, setForm] = useState({ email: '', password: '' });
@@ -44,7 +44,6 @@ const AdminLogin = () => {
         {/* Header */}
         <div className="text-center mb-6">
           <div className="flex items-center justify-center mb-4">
-            <FaShieldAlt className="text-3xl text-blue-600 mr-3" />
             <h2 className="text-2xl font-bold text-gray-800">
               Executive Assistant Login
             </h2>
@@ -99,16 +98,6 @@ const AdminLogin = () => {
             )}
           </button>
         </form>
-
-        {/* Security Notice */}
-        <div className="mt-6 p-3 bg-gray-50 rounded-lg">
-          <div className="flex items-start">
-            <FaShieldAlt className="text-green-600 mr-2 mt-0.5 flex-shrink-0" />
-            <div className="text-xs text-gray-600">
-              <strong>Security Notice:</strong> This login is for authorized personnel only.
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

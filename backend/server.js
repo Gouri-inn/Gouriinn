@@ -12,7 +12,6 @@ import bookingRoutes from './routes/bookingRoutes.js';
 import blockedDateRoutes from './routes/blockedDateRoutes.js';
 import notificationRoutes from './routes/notificationRoutes.js';
 import optionRoutes from './routes/optionRoutes.js';
-import otpRoutes from './routes/otpRoutes.js';
 import adminAuthRoutes from './routes/adminAuthRoutes.js';
 import contactRoutes from './routes/contactRoutes.js';
 import galleryRoutes from './routes/galleryRoutes.js';
@@ -43,9 +42,8 @@ export const allowedOrigins = [
   'https://booking-system-frontend.vercel.app', // Specific Vercel deployment
   'https://booking-system-frontend-git-main-patil-png.vercel.app', // Example for a specific branch deployment
   'https://gouriinn-gg897143z-gouri-inns-projects.vercel.app', // New Vercel deployment
-  'https://gouriinn.onrender.com', // Backend Render deployment
-  'http://localhost:5173', // For local development
-  'http://localhost:3000' // Another common local development port
+  'https://gouriinn.com', // Main domain
+  'http://localhost:5173' // For local development
 ];
 
 app.use(cors({
@@ -99,7 +97,6 @@ app.use('/api/bookings', bookingRoutes);
 app.use('/api/blocked-dates', blockedDateRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/options', optionRoutes);
-app.use('/api/otp', otpRoutes);
 app.use('/api', contactRoutes);
 app.use('/api/gallery-images', galleryRoutes);
 app.use('/api/admin', adminAuthRoutes);
