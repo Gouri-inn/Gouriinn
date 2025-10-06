@@ -36,14 +36,24 @@ export const loginAdmin = async (req, res) => {
 
     // Send OTP via email
     try {
-      await sendOtpEmail(admin.email, otp);
+      const emailResult = await sendOtpEmail(admin.email, otp);
+      if (emailResult && emailResult.error) {
+        console.error('Email sending failed:', emailResult.error);
+        return res.status(500).json({ 
+          message: "Failed to send OTP email. Please check server logs for details.", 
+          error: emailResult.error.message 
+        });
+      }
       res.status(200).json({ 
         message: "OTP sent to your email",
         tempToken 
       });
     } catch (emailError) {
       console.error('Email sending failed:', emailError);
-      res.status(500).json({ message: "Failed to send OTP email" });
+      res.status(500).json({ 
+        message: "Failed to send OTP email. Please check server logs for details.", 
+        error: emailError.message 
+      });
     }
 
   } catch (err) {
@@ -134,11 +144,21 @@ export const resendOtp = async (req, res) => {
 
     // Send new OTP via email
     try {
-      await sendOtpEmail(storedData.email, newOtp);
+      const emailResult = await sendOtpEmail(storedData.email, newOtp);
+      if (emailResult && emailResult.error) {
+        console.error('Email sending failed:', emailResult.error);
+        return res.status(500).json({ 
+          message: "Failed to send new OTP email. Please check server logs for details.", 
+          error: emailResult.error.message 
+        });
+      }
       res.status(200).json({ message: "New OTP sent to your email" });
     } catch (emailError) {
       console.error('Email sending failed:', emailError);
-      res.status(500).json({ message: "Failed to send OTP email" });
+      res.status(500).json({ 
+        message: "Failed to send new OTP email. Please check server logs for details.", 
+        error: emailError.message 
+      });
     }
 
   } catch (err) {

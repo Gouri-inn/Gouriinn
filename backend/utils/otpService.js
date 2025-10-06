@@ -8,6 +8,8 @@ const transporter = nodemailer.createTransport({
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
+  // Add a timeout to help diagnose connection issues
+  timeout: 10000, // 10 seconds
 });
 
 export const sendOtpEmail = async (email, otp) => {
@@ -113,7 +115,8 @@ export const sendOtp = async (email, phone) => {
     return { success: true, otp };
   } catch (error) {
     console.error('OTP sending failed:', error);
-    return { success: false, error: error.message };
+    // Return the full error object for better debugging
+    return { success: false, error: error }; 
   }
 };
 
