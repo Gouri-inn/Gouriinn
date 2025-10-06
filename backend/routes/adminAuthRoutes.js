@@ -6,8 +6,9 @@ import { verifyAdmin } from '../middleware/verifyAdmin.js';
 
 const router = express.Router();
 
-// ✅ ADMIN LOGIN
+// ✅ ADMIN LOGIN WITH 2FA
 router.post('/login', loginAdmin);
+
 
 // ✅ PROTECTED: GET ALL CONTACTS
 router.get('/contacts', verifyAdmin, getAllContacts);
