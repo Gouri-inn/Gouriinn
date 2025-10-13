@@ -6,9 +6,10 @@ const SEOHead = ({
   title, 
   description, 
   keywords, 
-  image, 
+  image,
   type = 'website',
-  structuredData = null 
+  structuredData = null,
+  canonicalPath = null
 }) => {
   const siteName = seoConfig.site.name;
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
@@ -16,7 +17,7 @@ const SEOHead = ({
   const defaultKeywords = seoConfig.site.keywords;
   const defaultImage = `${seoConfig.site.url}/RoomImages/suite.jpg`; // Use site URL for absolute image path
   const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
-  const canonicalUrl = `${seoConfig.site.url}${currentPath}`; // Construct canonical URL using current path
+  const canonicalUrl = `${seoConfig.site.url}${canonicalPath || currentPath}`; // Construct canonical URL
 
   return (
     <Helmet>

@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { FaBed } from "react-icons/fa";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO } from "../../config/seo";
 
 const rooms = [
   {
@@ -130,11 +132,20 @@ const waveDivider = (
 
 const GuestRooms = () => {
   const navigate = useNavigate();
+  const roomsSEO = getPageSEO("rooms");
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-yellow-50 via-white to-pink-50 pt-16 pb-24 px-4 md:px-12 overflow-x-hidden">
-      {/* Animated Heading */}
-      <motion.div
+    <>
+      <SEOHead
+        title={roomsSEO.title}
+        description={roomsSEO.description}
+        keywords={roomsSEO.keywords}
+        image={roomsSEO.image}
+        canonicalPath={roomsSEO.url}
+      />
+      <div className="relative min-h-screen bg-gradient-to-br from-yellow-50 via-white to-pink-50 pt-16 pb-24 px-4 md:px-12 overflow-x-hidden">
+        {/* Animated Heading */}
+        <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -249,6 +260,7 @@ const GuestRooms = () => {
         </motion.button>
       </motion.div>
     </div>
+    </>
   );
 };
 

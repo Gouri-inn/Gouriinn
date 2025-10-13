@@ -90,4 +90,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://gouriinn.com/Seva/EventWedding</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gouriinn.com/Seva/FoodBeverages</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gouriinn.com/Seva/SpecialOffers</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

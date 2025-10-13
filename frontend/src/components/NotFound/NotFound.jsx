@@ -2,26 +2,30 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaHome, FaBed, FaPhone, FaArrowLeft } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 import SEOHead from '../SEO/SEOHead';
 
 const NotFound = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Page Not Found - StayLuxe Hotel",
-    "description": "The page you're looking for doesn't exist. Explore our luxury hotel accommodations and services.",
+    "name": "Page Not Found - Gouri Inn",
+    "description": "The page you're looking for doesn't exist. Explore our hotel accommodations and services.",
     "url": "https://gouriinn.com/404"
   };
 
   return (
     <>
       <SEOHead 
-        title="Page Not Found | StayLuxe Hotel"
-        description="The page you're looking for doesn't exist. Explore our luxury hotel accommodations and services."
-        keywords="404, page not found, hotel booking, luxury accommodation"
+        title="Page Not Found | Gouri Inn"
+        description="The page you're looking for doesn't exist. Explore our hotel accommodations and services."
+        keywords="404, page not found, hotel booking, accommodation"
         url="https://gouriinn.com/404"
         structuredData={structuredData}
       />
+      <Helmet>
+        <meta name="robots" content="noindex" />
+      </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-[#f8f5f0] to-[#e8e0d0] flex items-center justify-center px-4">
         <div className="max-w-2xl mx-auto text-center">

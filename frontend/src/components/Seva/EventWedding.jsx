@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { FaRegGem } from "react-icons/fa";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO } from "../../config/seo";
 
 const weddingImages = [
   "/RoomImages/event1.jpg",
@@ -153,11 +155,20 @@ const Sparkles = () => (
 
 const EventWedding = () => {
   const navigate = useNavigate();
+  const eventWeddingSEO = getPageSEO("services").eventWedding;
 
   return (
-    <div className="container pt-6 pb-6 bg-gradient-to-br from-pink-50 via-white to-yellow-50 min-h-screen text-gray-800">
-      {/* Hero Section */}
-      <div
+    <>
+      <SEOHead
+        title={eventWeddingSEO.title}
+        description={eventWeddingSEO.description}
+        keywords={eventWeddingSEO.keywords}
+        image={eventWeddingSEO.image}
+        canonicalPath={eventWeddingSEO.url}
+      />
+      <div className="container pt-6 pb-6 bg-gradient-to-br from-pink-50 via-white to-yellow-50 min-h-screen text-gray-800">
+        {/* Hero Section */}
+        <div
         className="relative bg-cover bg-center h-[60vh] rounded-b-3xl shadow-lg overflow-hidden"
         style={{ backgroundImage: "url('/RoomImages/event1.jpg')" }}
       >
@@ -284,6 +295,7 @@ const EventWedding = () => {
         </motion.button>
       </motion.div>
     </div>
+    </>
   );
 };
 

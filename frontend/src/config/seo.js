@@ -84,6 +84,16 @@ export const seoConfig = {
       changefreq: 'monthly'
     },
 
+    about: {
+      title: 'About Gouri Inn | Our Story & Mission',
+      description: 'Learn about the story behind Gouri Inn, our mission to provide exceptional hospitality, and our commitment to guest satisfaction.',
+      keywords: 'about Gouri Inn, Gouri Inn story, hotel mission, hospitality, guest satisfaction',
+      image: '/about-us.jpg',
+      url: '/about',
+      priority: 0.6,
+      changefreq: 'monthly'
+    },
+
     services: {
       eventWedding: {
         title: 'Events & Weddings at Gouri Inn | Luxury Venue',

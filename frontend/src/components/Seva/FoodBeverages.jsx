@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO } from "../../config/seo";
 
 const foodItems = [
   {
@@ -23,10 +25,19 @@ const foodItems = [
 ];
 
 const FoodBeverages = () => {
+  const foodBeveragesSEO = getPageSEO("services").foodBeverages;
   return (
-    <div className="bg-white pt-16 pb-24 px-4 md:px-12">
-      <motion.div
-        className="text-center mb-12"
+    <>
+      <SEOHead
+        title={foodBeveragesSEO.title}
+        description={foodBeveragesSEO.description}
+        keywords={foodBeveragesSEO.keywords}
+        image={foodBeveragesSEO.image}
+        canonicalPath={foodBeveragesSEO.url}
+      />
+      <div className="bg-white pt-16 pb-24 px-4 md:px-12">
+        <motion.div
+          className="text-center mb-12"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -77,6 +88,7 @@ const FoodBeverages = () => {
         </button>
       </motion.div>
     </div>
+    </>
   );
 };
 
@@ -166,4 +178,3 @@ export default FoodBeverages;
 // };
 
 // export default FoodBeverages;
-

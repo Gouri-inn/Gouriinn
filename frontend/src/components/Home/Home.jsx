@@ -3,11 +3,15 @@ import { FaStar, FaUserFriends, FaAward, FaMapPin, FaUtensils, FaSpa, FaWifi, Fa
 import { motion, useScroll, useTransform, useSpring, useInView, AnimatePresence } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO, generateStructuredData } from "../../config/seo";
 
 gsap.registerPlugin(ScrollTrigger);
 import "./Home.css";
 
 function Home() {
+  const homeSEO = getPageSEO("home");
+  const hotelStructuredData = generateStructuredData("hotel");
   const [selectedImage, setSelectedImage] = useState(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const videoRef = useRef(null);
@@ -178,6 +182,14 @@ function Home() {
 
   return (
     <div ref={containerRef} className="font-sans min-h-screen bg-gradient-to-br from-[#faf8f5] via-[#f5f2ed] to-[#ede8e0] overflow-x-hidden">
+      <SEOHead
+        title={homeSEO.title}
+        description={homeSEO.description}
+        keywords={homeSEO.keywords}
+        image={homeSEO.image}
+        structuredData={hotelStructuredData}
+        canonicalPath="/"
+      />
       {/* HERO SECTION WITH PARALLAX */}
       <motion.section
         className="relative min-h-screen flex flex-col justify-center items-center text-center overflow-hidden font-sans bg-gradient-to-br from-[#1a1611] via-[#2d2419] to-[#3d2c1e]"

@@ -3,10 +3,13 @@ import Slider from "react-slick";
 import { motion, AnimatePresence } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO } from "../../config/seo";
 
 const fallbackImage = "/fallback.jpg";
 
 const Gallery = () => {
+  const gallerySEO = getPageSEO("gallery");
   const sliderRef = useRef(null);
   const [activeTab, setActiveTab] = useState("all");
   const [allFetchedImages, setAllFetchedImages] = useState([]);
@@ -212,9 +215,17 @@ const Gallery = () => {
   }
 
   return (
-    <motion.div
-      className="min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-purple-950 text-white font-sans"
-      initial="hidden"
+    <>
+      <SEOHead
+        title={gallerySEO.title}
+        description={gallerySEO.description}
+        keywords={gallerySEO.keywords}
+        image={gallerySEO.image}
+        canonicalPath={gallerySEO.url}
+      />
+      <motion.div
+        className="min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-purple-950 text-white font-sans"
+        initial="hidden"
       animate="visible"
       variants={staggerContainerVariants}
     >
@@ -497,6 +508,7 @@ const Gallery = () => {
         )}
       </AnimatePresence>
     </motion.div>
+    </>
   );
 };
 

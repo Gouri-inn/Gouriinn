@@ -1,5 +1,6 @@
 // src/components/Contact.jsx
 import React, { useState } from "react";
+import SEOHead from "../SEO/SEOHead";
 import axios from "axios";
 import { motion } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -95,9 +96,16 @@ function Contact() {
   ];
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 py-8 px-4 sm:px-6 md:px-8 overflow-x-hidden">
-      {/* Header */}
-      <motion.div
+    <>
+      <SEOHead
+        title="Contact Us | Gouri Inn"
+        description="Get in touch with Gouri Inn. We are here to help with any inquiries, bookings, or feedback."
+        keywords="contact us, gouri inn, hotel contact"
+        canonicalPath="/contact"
+      />
+      <div className="min-h-screen w-full bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 py-8 px-4 sm:px-6 md:px-8 overflow-x-hidden">
+        {/* Header */}
+        <motion.div
         className="text-center mb-10 sm:mb-12"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -288,6 +296,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

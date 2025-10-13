@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { FaGift } from "react-icons/fa";
+import SEOHead from "../SEO/SEOHead";
+import { getPageSEO } from "../../config/seo";
 
 const offers = [
   {
@@ -133,11 +135,20 @@ const waveDivider = (
 
 const SpecialOffers = () => {
   const navigate = useNavigate();
+  const specialOffersSEO = getPageSEO("services").specialOffers;
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-pink-50 via-yellow-50 to-orange-100 pt-16 pb-24 px-4 md:px-12 overflow-x-hidden">
-      {/* Animated Heading */}
-      <motion.div
+    <>
+      <SEOHead
+        title={specialOffersSEO.title}
+        description={specialOffersSEO.description}
+        keywords={specialOffersSEO.keywords}
+        image={specialOffersSEO.image}
+        canonicalPath={specialOffersSEO.url}
+      />
+      <div className="relative min-h-screen bg-gradient-to-br from-pink-50 via-yellow-50 to-orange-100 pt-16 pb-24 px-4 md:px-12 overflow-x-hidden">
+        {/* Animated Heading */}
+        <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -251,6 +262,7 @@ const SpecialOffers = () => {
         </p>
       </motion.div>
     </div>
+    </>
   );
 };
 
