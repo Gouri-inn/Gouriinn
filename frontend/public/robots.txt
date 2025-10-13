@@ -1,11 +1,37 @@
-# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
-#
-# To ban all spiders from the entire site uncomment the following two lines:
-# User-agent: *
-# Disallow: /
-
 User-agent: *
-Disallow: /executive-assistant/
-Disallow: /login/
+Allow: /
 
+# Sitemap
 Sitemap: https://gouriinn.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /executive-assistant/
+Disallow: /api/
+
+# Allow important pages with high priority
+Allow: /
+Allow: /rooms/
+Allow: /gallery/
+Allow: /contact/
+Allow: /about/
+Allow: /room-booking/
+Allow: /book
+Allow: /lander
+Allow: /seva/
+Allow: /seva/guest-rooms
+Allow: /seva/event-wedding
+Allow: /seva/food-beverages
+Allow: /seva/special-offers
+Allow: /family-rooms/
+Allow: /wedding-venue/
+Allow: /banquet-hall/
+Allow: /restaurant/
+Allow: /business-hotel/
+Allow: /budget-hotel/
+Allow: /amenities/
+Allow: /location/
+Allow: /lawn-booking/
+
+# Crawl delay for better server performance
+Crawl-delay: 1
