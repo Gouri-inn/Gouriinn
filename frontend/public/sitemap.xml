@@ -2,109 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gouriinn.com/</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/rooms</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/gallery</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/contact</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/about</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/room-booking</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gouriinn.com/seva</loc>
-    <lastmod>2025-09-05</lastmod>
+    <loc>https://gouriinn.com/Seva/FoodBeverages</loc>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/family-rooms</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/wedding-venue</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/banquet-hall</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/restaurant</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/business-hotel</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/budget-hotel</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/amenities</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gouriinn.com/location</loc>
-    <lastmod>2025-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/Seva/EventWedding</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gouriinn.com/Seva/FoodBeverages</loc>
-    <lastmod>2025-09-05</lastmod>
+    <loc>https://gouriinn.com/Seva/GuestRooms</loc>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gouriinn.com/Seva/SpecialOffers</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

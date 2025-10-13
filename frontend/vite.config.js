@@ -1,9 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import sitemap from 'vite-plugin-sitemap'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    sitemap({
+      hostname: 'https://gouriinn.com',
+      dynamicRoutes: [
+        '/Seva/FoodBeverages',
+        '/Seva/EventWedding',
+        '/Seva/GuestRooms',
+        '/Seva/SpecialOffers',
+      ],
+    }),
+  ],
   base: '/',
   build: {
     rollupOptions: {
